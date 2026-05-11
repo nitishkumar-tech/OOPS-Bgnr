@@ -47,6 +47,7 @@
     <Compile Include="NameParameterless.cs" />
     <Compile Include="Parameterized.cs" />
     <Compile Include="Parameterless.cs" />
+    <Compile Include="parameterless_Return.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
