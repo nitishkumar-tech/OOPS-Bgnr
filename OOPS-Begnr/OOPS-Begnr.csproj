@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="NameParameterized.cs" />
     <Compile Include="NameParameterless.cs" />
+    <Compile Include="NameReturn.cs" />
     <Compile Include="Parameterized.cs" />
     <Compile Include="Parameterless.cs" />
     <Compile Include="parameterless_Return.cs" />
