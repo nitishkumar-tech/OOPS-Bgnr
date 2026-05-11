@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NameParameter&amp;Return.cs" />
     <Compile Include="NameParameterized.cs" />
     <Compile Include="NameParameterless.cs" />
     <Compile Include="NameReturn.cs" />
