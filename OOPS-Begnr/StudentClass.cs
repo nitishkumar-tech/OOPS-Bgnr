@@ -14,11 +14,11 @@ namespace OOPS_Begnr
             string sname;
             int sage;
             static string collegename = "jntuh";
-           
-            public student (int studentid, string sname, int sage)
+
+            public student(int studentid, string sname, int sage)
             {
-                this.studentid= studentid;
-                this.sname= sname;
+                this.studentid = studentid;
+                this.sname = sname;
                 this.sage = sage;
             }
             public void studentdisplay()
@@ -31,18 +31,26 @@ namespace OOPS_Begnr
         }
         static void Main(string[] args)
         {
-            student obj = new student(101, "nitish", 20);
-            obj.studentdisplay();
-            student obj1 = new student(102, "ravi", 24);
-            obj1.studentdisplay();
-            student obj2 = new student(103, "raju", 26);
-            obj2.studentdisplay();
-            student obj3 = new student(104, "rama", 21);
-            obj3.studentdisplay();
-            student obj4 = new student(105, "vijay", 20);
-            obj4.studentdisplay();
+            student[] s = new student[25];
 
+            for (int i = 0; i < s.Length; i++)
+            {
+                Console.WriteLine("Enter details for student " + (i + 1));
 
+                Console.WriteLine("enter student id");
+                int id = int.Parse(Console.ReadLine());
+                Console.WriteLine("enter student name");
+                string name = Console.ReadLine();
+                Console.WriteLine("enter student age");
+                int age = int.Parse(Console.ReadLine());
+                s[i] = new student(id, name, age);
+            }
+            Console.WriteLine("student details are:");
+            for (int i = 0; i < s.Length; i++)
+            {
+                s[i].studentdisplay();
+                Console.WriteLine();
+            }
         }
     }
 }
