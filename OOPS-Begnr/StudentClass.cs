@@ -31,7 +31,7 @@
 //        }
 //        static void Main(string[] args)
 //        {
-//            student[] s = new student[25];
+//             student[] s = new student[25];
 
 //            for (int i = 0; i < s.Length; i++)
 //            {
