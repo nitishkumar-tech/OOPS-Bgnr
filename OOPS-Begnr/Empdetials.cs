@@ -34,7 +34,7 @@
 //        }
 //        static void Main(string[] args)
 //        {
-//            Employee[] emp = new Employee[1];
+//            Employee[] emp = new Employee[25];
 
 //            for (int i = 0; i < emp.Length; i++)
 //            {
@@ -51,12 +51,12 @@
 //                {
 //                    Console.WriteLine("please enter valid age");
 //                    age = Convert.ToInt32(Console.ReadLine());
-                   
+
 //                }
 //                Console.WriteLine("enter your employee location");
 //                string eloc = Console.ReadLine();
 
-               
+
 //                emp[i] = new Employee(id, ename, age, eloc);
 //            }
 //            for (int i = 0; i < emp.Length; i++)
