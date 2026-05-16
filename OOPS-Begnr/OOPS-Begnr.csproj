@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="constring-2.cs" />
+    <Compile Include="stdcons.cs" />
     <Compile Include="CarParameterCons.cs" />
     <Compile Include="ConnectionStringCons.cs" />
     <Compile Include="Constructors.cs" />
